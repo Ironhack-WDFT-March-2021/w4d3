@@ -6,6 +6,7 @@ const app = express();
 const movies = require('./movies.json');
 
 console.log(movies);
+
 app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
